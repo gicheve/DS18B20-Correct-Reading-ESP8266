@@ -9,4 +9,4 @@ That's why reading scratch pad of the sensor immediately after Convert T command
 2. One cycle delay
 
 If readings are done often there could be low impact but my reading is once per minute and I wanted to have "Real" data.
-Fortunately DS18b20 pulls down data line during conversion and we can when exactly all sensors finish this process and read data after it.
+Fortunately DS18b20 pulls down data line during conversion and we can "sense" the perfect time when exactly all sensors finish this process and can read data after it.
